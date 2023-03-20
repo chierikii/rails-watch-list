@@ -1,6 +1,6 @@
 class CreateLists < ActiveRecord::Migration[7.0]
   def change
-    unless table_exists? :bookmarks
+    unless table_exists? :lists
     create_table :lists do |t|
 
       t.timestamps
