@@ -3,5 +3,6 @@ class Review < ApplicationRecord
   # validates :rating, presence: true
 
   attribute :list_id, :integer
- 
+
 end
+
